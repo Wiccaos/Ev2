@@ -189,8 +189,8 @@
         <mxCell id="fpI30daJyoEzycUjclTs-66" value="exportar_informe()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="fpI30daJyoEzycUjclTs-62" vertex="1">
           <mxGeometry y="164" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="fpI30daJyoEzycUjclTs-67" value="trello.com" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=#9673a6;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fillColor=#e1d5e7;" parent="1" vertex="1">
-          <mxGeometry x="100" y="640" width="80" height="26" as="geometry" />
+        <mxCell id="fpI30daJyoEzycUjclTs-67" value="trello.com&lt;div&gt;OWASP&lt;/div&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=#9673a6;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fillColor=#e1d5e7;" parent="1" vertex="1">
+          <mxGeometry x="100" y="640" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MBUCMjWB9lpOIxFEd7_0-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fpI30daJyoEzycUjclTs-14" target="fpI30daJyoEzycUjclTs-10">
           <mxGeometry relative="1" as="geometry" />

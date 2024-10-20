@@ -10,3 +10,4 @@ class RegistroTiempo(Asignacion_proy_emp):
 
     def Validar_cant_horas(self):
         pass
+print("adaada")

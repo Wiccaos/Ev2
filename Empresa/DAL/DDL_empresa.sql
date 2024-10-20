@@ -65,6 +65,6 @@ CREATE TABLE proy_emp (
     id_proyecto int PRIMARY KEY,
     id_empleado int,
     id_proyecto int,
-    FOREIGN KEY (id_empleado) REFERENCES  empleado(id_empleado),
+    FOREIGN KEY (id_empleado) REFERENCES empleado(id_empleado),
     FOREIGN KEY (id_proyecto) REFERENCES proyecto(id_proyecto)
 );

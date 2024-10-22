@@ -55,15 +55,15 @@ INSERT INTO informe (id_informe, id_empleado, fecha_hora, reporte) VALUES
 ;
 
 INSERT INTO reg_tiempo (id_reg_tiempo, id_empleado, fecha_reg, hora_reg, descripcion) VALUES
-(),
-(),
-(),
-()
+(11),
+(22),
+(33),
+(44)
 ;
 
 INSERT INTO proy_emp (id_proyecto_emp, id_empleado, id_proyecto) VALUES
-(),
-(),
-(),
-()
+(111,),
+(222,),
+(333,),
+(444,)
 ;

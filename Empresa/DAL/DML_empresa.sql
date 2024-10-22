@@ -48,11 +48,10 @@ INSERT INTO proyecto (id_proyecto, nombre_proyecto, descripcion, fecha_inicio, f
 ;
 
 INSERT INTO informe (id_informe, id_empleado, fecha_hora, reporte) VALUES
-(),
-(),
-(),
-(),
-()
+(1010,2,Null,"Nose"),
+(1020,3,Null,"Nose"),
+(1030,4,Null,"Nose"),
+(1040,1,Null,"Nose")
 ;
 
 INSERT INTO reg_tiempo (id_reg_tiempo, id_empleado, fecha_reg, hora_reg, descripcion) VALUES
@@ -62,7 +61,7 @@ INSERT INTO reg_tiempo (id_reg_tiempo, id_empleado, fecha_reg, hora_reg, descrip
 ()
 ;
 
-INSERT INTO proy_emp (id_proyecto, id_empleado, id_proyecto) VALUES
+INSERT INTO proy_emp (id_proyecto_emp, id_empleado, id_proyecto) VALUES
 (),
 (),
 (),

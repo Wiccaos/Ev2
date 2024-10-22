@@ -62,7 +62,7 @@ CREATE TABLE reg_tiempo (
     FOREIGN KEY (id_empleado) REFERENCES empleado(id_empleado)
 );
 CREATE TABLE proy_emp (
-    id_proyecto int PRIMARY KEY,
+    id_proyecto_emp int PRIMARY KEY,
     id_empleado int,
     id_proyecto int,
     FOREIGN KEY (id_empleado) REFERENCES empleado(id_empleado),

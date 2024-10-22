@@ -1,17 +1,16 @@
 import mysql.connector
-from mysql.connector 
+from mysql.connector
 
-def generar_conexion(user,password,server,database, consulta):
+def generar_conexion(user, password, server, database, consulta):
     config={
         'user': user,
         'password': password,
         'host': server,
         'database': database
     }
-    try:
-        conexion = mysql.connector.connect(**config)
-        if conexion and conexion.is_connected():
-            cursor = conexion.cursor()
+    conexion = mysql.connector.connect(**config)
+    if conexion and conexion.is_connected():
+        cursor = conexion.cursor()
             cursor.execute(consulta)
             if cursor != None:
                 for registro in cursor:

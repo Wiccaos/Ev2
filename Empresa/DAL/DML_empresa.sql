@@ -5,8 +5,7 @@ INSERT INTO tipo_empleado (id_tipo_emp, tipo) VALUES
 (102, 'Empleado')
 ;
 
-INSERT INTO empleado  (id, nombre, apellido, edad, salario, correo_empleado, telefono_empleado, direccion,
-                    id_tipo_emp, fecha_nacimiento, fecha_ingreso, contraseña) VALUES
+INSERT INTO empleado  (id, nombre, apellido, edad, salario, correo_empleado, telefono_empleado, direccion, id_tipo_emp, fecha_nacimiento, fecha_ingreso, contraseña) VALUES
 (1, 'Juan', 'Perez', 30, 5000, 'j.perez1@gmail.com', '+56951548780', 'Los Alerces #423', 101, 1992-03-05,  2020-01-01, 'Contraseña1234'),
 (2, 'Maria', 'Gonzalez', 25, 4000, 'maria.go@gmail.com', '+56988059447', 'Las Rosas #8797', 102, 1998-07-25, 2021-10-21, 'Password1234'),
 (3, 'Pedro', 'Lopez', 35, 6000, 'pedrolopez@gmail.com', '+56988789568', 'Lautaro #1212', 101, 2000-01-01, 2020-05-15, 'Abcde12345'),
@@ -55,15 +54,14 @@ INSERT INTO informe (id_informe, id_empleado, fecha_hora, reporte) VALUES
 ;
 
 INSERT INTO reg_tiempo (id_reg_tiempo, id_empleado, fecha_reg, hora_reg, descripcion) VALUES
-(11),
-(22),
-(33),
-(44)
+(11,3,),
+(22,4,),
+(33,1,),
+(44,2,)
 ;
 
 INSERT INTO proy_emp (id_proyecto_emp, id_empleado, id_proyecto) VALUES
-(111,),
-(222,),
-(333,),
-(444,)
+(111,4,02),
+(222,2,03),
+(333,1,01)
 ;

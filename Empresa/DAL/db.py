@@ -1,17 +1,17 @@
 import mysql.connector
 from mysql.connector
 
-def generar_conexion(user, password, server, database, consulta):
+def generar_conexion():
     config={
-        'user': user,
-        'password': password,
-        'host': server,
-        'database': database
+        'user': 'root',
+        'password': '',
+        'host': 'localhost',
+        'database': 'Empresa'
     }
     conexion = mysql.connector.connect(**config)
     if conexion and conexion.is_connected():
         cursor = conexion.cursor()
-        cursor.execute(consulta)
+        cursor.execute('SELECT * FROM AUTOR')
         if cursor != None:
             for registro in cursor:
                 print(registro)
